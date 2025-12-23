@@ -14,6 +14,8 @@ def main():
         sys.exit(1)
 
     book_path = sys.argv[1]
+    print('============ BOOKBOT ============')
+    print(f"Analyzing book found at {book_path}...")
     text = get_book_text(book_path)
     return text
 
@@ -37,7 +39,7 @@ for char in char_num:
 
 sorted_list = sorted(char_list, key=sort_on, reverse=True)
 
-print('============ BOOKBOT ============')
+
 print("----------- Word Count ----------")
 get_num_words(text)
 print("--------- Character Count -------")
