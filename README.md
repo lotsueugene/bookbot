@@ -51,7 +51,7 @@ Usage: python3 main.py &lt;path_to_book&gt;
 
 <pre>
 ============ BOOKBOT ============
-Analyzing book found at books/prideandprejudice.txt...
+Analyzing book found at <path_to_book>...
 ----------- Word Count ----------
 Found 78365 total words
 --------- Character Count -------
